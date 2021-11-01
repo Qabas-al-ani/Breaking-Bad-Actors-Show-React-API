@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import spinner from "../../images/spinner1.gif";
 
 const Spinner = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <img
+      src={spinner}
+      style={{ width: "200px", margin: "auto", display: "block" }}
+      alt="Loading"
+    />
+  );
+};
 
-export default Spinner
+export default Spinner;
